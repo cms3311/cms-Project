@@ -1,0 +1,9 @@
+package com.example.demo.test;
+
+@RestController 
+public class CmsController {
+	@GetMapping("/test/hello")
+	public String hello() {
+		return "<h1> Hello Spring Boot </h1>";
+	}
+}
